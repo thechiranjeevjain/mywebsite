@@ -1,18 +1,23 @@
 {
-  "name": "modern_portfolio",
+  "name": "thechiranjeevjainwebsite",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "I have build a responsive website that will display images. links and description. This is my first portfolio project.",
   "main": "index.js",
-  "homepage": "https://thechiranjeevjain.github.io/mywebsite",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Chiranjeev Jain",
-  "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.13.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thechiranjeevjain/mywebsite.git"
   },
-  "keywords": []
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thechiranjeevjain/mywebsite/issues"
+  },
+  "homepage": "https://thechiranjeevjain.github.io/mywebsite",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
